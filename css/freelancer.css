@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background-color: #9CF;
 }
 
 header .container {
@@ -109,6 +109,7 @@ header .intro-text .skills {
 }
 
 header hr.star-light::after {
+    background-color: #9CF;
     content: "";
 }
 
@@ -265,6 +266,14 @@ section.success a.active {
 
 #portfolio * {
     z-index: 2;
+}
+
+#about {
+    background-color: #9CF;
+}
+
+#about hr.star-light::after {
+    background-color: #9CF;
 }
 
 #contact {
