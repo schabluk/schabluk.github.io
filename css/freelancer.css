@@ -108,6 +108,10 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+header hr.star-light::after {
+    content: "";
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
@@ -208,6 +212,7 @@ section.success a.active {
 }
 
 #portfolio hr.star-primary::after {
+    content: "";
     background: #f4f4f4;
 }
 
